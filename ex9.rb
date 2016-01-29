@@ -1,8 +1,8 @@
 days = "Mon Tue Wed Thu Fri Sat Sun"
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
-puts "Here are the days: #{days}"
-puts "Here are the months: #{months}"
+puts "Here are the days: \n#{days}"
+puts "Here are the months: \n#{months}"
 
 puts """
 There's something going on here.
