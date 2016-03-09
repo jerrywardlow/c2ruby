@@ -10,6 +10,8 @@ fruits.each do |fruit|
   puts "A fruit of type: #{fruit}"
 end
 
+fruits.each { |fruit| puts "Also, a fruit of type: #{fruit}" }
+
 change.each { |i| puts "I got #{i}" }
 
 elements = []
