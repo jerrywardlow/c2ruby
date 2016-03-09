@@ -6,6 +6,10 @@ for number in the_count
   puts "This is the count #{number}"
 end
 
+the_count.each do |n|
+  puts "Here's more counting: #{n}"
+end
+
 fruits.each do |fruit|
   puts "A fruit of type: #{fruit}"
 end
