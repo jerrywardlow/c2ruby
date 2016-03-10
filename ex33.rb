@@ -13,3 +13,7 @@ end
 puts "The numbers: "
 
 numbers.each { |num| puts num }
+
+numbers.each do |n|
+  puts n
+end
