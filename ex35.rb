@@ -65,7 +65,7 @@ end
 
 def start
   puts "You are in a dark room."
-  puts "There is a door to your right and to your left, and one straight ahead."
+  puts "There is a door to your RIGHT and to your LEFT, and one STRAIGHT ahead."
   puts "Which one do you take?"
 
   print "> "
