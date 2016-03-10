@@ -59,7 +59,7 @@ def cthulhu_room
 end
 
 def dead(why)
-  puts why, "Good job!"
+  puts why, "You're dead, good job!"
   exit(0)
 end
 
