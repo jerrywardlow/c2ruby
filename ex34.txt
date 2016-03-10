@@ -1,0 +1,8 @@
+The animal at 1 is 'ruby'
+The third (3rd) animal is 'peacock'
+The first (1st) animal is 'bear'
+The animal at 3 is 'kangaroo'
+The fifth (5th) animal is 'whale'
+The animal at 2 is 'peacock'
+The sixth (6th) animal is 'platypus'
+The animal at 4 is 'whale'
