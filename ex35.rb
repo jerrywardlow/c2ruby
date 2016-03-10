@@ -4,7 +4,7 @@ def gold_room
   print "> "
   how_much = Integer(gets) rescue false
 
-  if !how_much
+  unless how_much
     dead("Man, learn how to type a number.")
   end
 
@@ -65,7 +65,7 @@ end
 
 def start
   puts "You are in a dark room."
-  puts "There is a door to your right and to your left."
+  puts "There is a door to your right and to your left, and one straight ahead."
   puts "Which one do you take?"
 
   print "> "
@@ -75,6 +75,8 @@ def start
     bear_room
   elsif choice == "right"
     cthulhu_room
+  elsif choice == "straight"
+    gold_room
   else
     dead("You stumble around the room until you starve.")
   end
