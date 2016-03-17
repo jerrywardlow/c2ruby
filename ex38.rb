@@ -20,6 +20,6 @@ puts "Let's do some things with stuff."
 
 puts stuff[1]
 puts stuff[-1]
-puts stuff.pop()
+puts stuff.pop
 puts stuff.join(' ')
 puts stuff[3..5].join("#")
