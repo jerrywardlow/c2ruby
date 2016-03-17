@@ -4,6 +4,7 @@ puts "Wait, Zed screwed up and only listed six things. Let's fix his error."
 
 stuff = ten_things.split(' ')
 more_stuff = ["Pouch", "Porcupine", "Pillow", "Patio", "Pants", "Purse", "Pool"]
+even_more_stuff = %w(Path Park Pond Panther Palindrome)
 
 while stuff.length != 10
   next_one = more_stuff.pop
@@ -13,6 +14,7 @@ while stuff.length != 10
 end
 
 puts "There we go: #{stuff}"
+puts "Here's even more stuff: #{even_more_stuff}"
 
 puts "Let's do some things with stuff."
 
