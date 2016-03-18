@@ -46,9 +46,7 @@ end
 puts '-' * 10
 state = states['Texas']
 
-unless state
-  puts "Sorry, no Texas."
-end
+puts "Sorry, no Texas." unless state
 
 city = cities['TX']
 city ||= 'Does Not Exist'
