@@ -46,7 +46,7 @@ end
 puts '-' * 10
 state = states['Texas']
 
-if !state
+unless state
   puts "Sorry, no Texas."
 end
 
