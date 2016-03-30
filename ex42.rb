@@ -4,7 +4,6 @@ end
 
 # has-a
 class Dog < Animal
-
   def initialize(name)
     # has-a
     @name = name
@@ -24,7 +23,6 @@ class Person
   def initialize(name)
     # has-a
     @name = name
-
     # has-a
     @pet = nil
   end
