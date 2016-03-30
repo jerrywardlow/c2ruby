@@ -8,6 +8,9 @@ class Dog < Animal
     # has-a
     @name = name
   end
+  def bark()
+    puts "Arf! My name is " + @name + "! You're hallucinating!"
+  end
 end
 
 # is-a
@@ -78,3 +81,5 @@ ted_cruz = Salmon.new()
 
 # is-a
 cinco = Halibut.new()
+
+rover.bark()
