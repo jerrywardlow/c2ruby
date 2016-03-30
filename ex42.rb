@@ -19,6 +19,9 @@ class Cat < Animal
     # has-a
     @name = name
   end
+  def meow()
+    puts "..."
+  end
 end
 
 # is-a
